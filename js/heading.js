@@ -1,5 +1,15 @@
+function populateStorage() 
+{
+  localStorage.setItem('name', 'Chad');
+  localStorage.setItem('browser', 'Edge');
+}
+
+populateStorage();
+
 class Heading extends React.Component
 {
+
+  
 
   render()
   {
@@ -9,7 +19,7 @@ class Heading extends React.Component
     }
     return(
       <div style = {headingStyle}>
-        <h1 className="heading">{this.props.name} Testing on {this.props.browser}</h1>
+        <h1 className="heading">{localStorage.name} Testing on {localStorage.browser}</h1>
       </div>
     );
   }

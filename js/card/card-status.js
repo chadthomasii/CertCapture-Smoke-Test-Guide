@@ -15,7 +15,7 @@ class CardStatus extends React.Component
  
     return (
       <div style={cardStatusStyle}>
-        <h1>Status</h1>
+        <h1>{this.props.status}</h1>
       </div>
     );
   }

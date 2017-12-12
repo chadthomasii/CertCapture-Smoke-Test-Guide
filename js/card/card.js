@@ -16,9 +16,9 @@ class Card extends React.Component
  
     return (
       <div className="card" style={cardStyle}>
-        <CardStatus/>
+        <CardStatus status={this.props.status}/>
         <hr className="card-break"/>
-        <TestName testName="Test Name"/>
+        <TestName testName={this.props.testName}/>
       </div>
     );
   }

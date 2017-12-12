@@ -8,18 +8,7 @@ class App extends React.Component
       <div>
         <Heading name="Chad" browser="Edge"/>
         <div className="card-container">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card status="Incomplete" testName="Test"/>
           
         </div>
         
