@@ -11,3 +11,7 @@ dynamicallyLoadScript("js/card/card-status.js");
 dynamicallyLoadScript("js/card/test-name.js");
 dynamicallyLoadScript("js/card/card.js");
 dynamicallyLoadScript("js/app.js");
+
+$.getJSON("tests.json", function(json) {
+    console.log(json.tests[1]); // this will show the info it in firebug console
+});

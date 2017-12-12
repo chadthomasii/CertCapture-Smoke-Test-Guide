@@ -1,0 +1,23 @@
+{
+    "tests" : 
+    [
+      
+      {
+       "name" : "Create New Company"
+      },
+      
+      {
+        "name" : "Create New Hierarchy"
+      },
+      
+      {
+        "name" : "Assign All Nexus Settings"
+      },
+
+      {
+        "name" : "Enable Public Wizard and Retail"
+      }
+      
+      
+    ]
+  }
