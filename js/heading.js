@@ -1,7 +1,7 @@
 function populateStorage() 
 {
-  localStorage.setItem('name', 'Chad');
-  localStorage.setItem('browser', 'firefox');
+  localStorage.setItem('name', 'Luke');
+  localStorage.setItem('browser', 'lightsaber');
 }
 
 populateStorage();
@@ -23,8 +23,8 @@ class Heading extends React.Component
 
     var imageStyle = 
     {
-        height: 50,
-        width: 50,
+        height: 70,
+        width: 70,
         padding: "0px 15px"
         
     }
@@ -32,7 +32,7 @@ class Heading extends React.Component
     return(
       <div style = {headingStyle}>
         <h1 className="heading">{localStorage.name}, testing on </h1>
-        <img style = {imageStyle} src={"../img/" + localStorage.browser + ".png" } alt="Browser"/>
+        <img className="browser" style = {imageStyle} src={"../img/" + localStorage.browser + ".png" } alt="Browser"/>
       </div>
     );
   }

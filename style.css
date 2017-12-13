@@ -15,6 +15,11 @@ body
     animation: dropIn 700ms ease-out;
 }
 
+.browser
+{
+   
+    animation: dropIn 700ms ease-out;
+}
 .card-container
 {
     display: flex;
@@ -30,7 +35,7 @@ body
     /* Add shadows to create the "card" effect */
     box-shadow: 0 18px 10px -10px rgba(0,0,0,0.2);
     transition: all ease-in-out 250ms;
-
+    border: 2px solid #e3e3e3;
     animation: fadeAndScale 1200ms ease-out;
 
 }

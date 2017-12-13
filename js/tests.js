@@ -34,7 +34,7 @@ var data =
       },
       
       {
-        "name" : "Send a document Request",
+        "name" : "Send a Document Request",
         "id" : 7
       },
 
