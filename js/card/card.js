@@ -1,3 +1,5 @@
+//Cardclass consits of the card status section and test name section
+
 class Card extends React.Component 
 {
   render() 
@@ -9,8 +11,8 @@ class Card extends React.Component
       backgroundColor: "#FFF",
       borderRadius: 7,
       color: "#333",
-      margin: 30
-  
+      margin: 30,
+      
       
     };
  

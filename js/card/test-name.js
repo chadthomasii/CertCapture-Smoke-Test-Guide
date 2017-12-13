@@ -6,6 +6,7 @@ class TestName extends React.Component
     {
      
       textAlign: "center",
+      fontSize: "0.9em"
      
   
       
