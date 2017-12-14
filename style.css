@@ -76,14 +76,23 @@ body
 
 @keyframes fadeAndScale
 {
-    from 
+    0%
     {
         transform: translate(0px, 700px);
+        opacity: 0;
        
     }
-    to
+
+    50%
+    {
+        opacity: 0.7;
+       
+    }
+    100%
     {
         transform: translate(0px, 0px);
+        opacity: 1;
+        
         
     }
 }

@@ -24,14 +24,7 @@ class App extends React.Component
    
   }
   
-  componentDidMount() //Called when component is all finished and loaded up.
-  {
-    
-    
-    $(".card").addClass("fadeIn"); //Add animation to each card
 
-
-  }
 
   render()
   {
